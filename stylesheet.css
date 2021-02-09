@@ -1,6 +1,7 @@
 html{
     font-size: 15px;
     font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
     text-align: left;
     letter-spacing: 0px;
     word-spacing: 0px;
@@ -14,17 +15,17 @@ h1{
 
 h2{
     font-size: 1.75rem;
-    color: #2e294eff;
+    color: #f46036ff;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #1b998bff;
+    color: #f46036ff;
 }
 
 p{
     font-size: 1.25rem;
-    color: #e71d36ff;
+    color: #2e294e;
     
 }
 
@@ -35,11 +36,11 @@ a {
 }
 
 a:link {
-        color: #c5d86dff;
+        color: #1b998b;
 }
 
 a:visited{
-        color: #437A16;
+        color: #e71d36;
 }
 
 a:focus {
@@ -49,11 +50,11 @@ a:focus {
 
 a:hover {
     border-bottom: 1px solid;
-    background: #CDFEAA;
+    background: #c5d86d;
 }
 
 a:active {
-    background: #265301;
-    color: #CDFEAA;
+    background: #1b998b;
+    color: #e71d36;
 }
 
