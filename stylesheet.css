@@ -30,7 +30,7 @@ p{
 }
 
 a {
-    outline: none;
+    border-bottom: 1px solid;
     padding: 2px 1px 0px;
 }
 
