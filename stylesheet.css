@@ -9,6 +9,34 @@ html{
     line-height: 1.5;
     
 }
+nav{
+    background-color: #2e294e;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+nav a{
+    color:#f46036ff;
+}
+@media (max-width: 768px){
+    nav ul{
+        display: block;
+    }
+    nav li{
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+}
 h1{
     font-size: 2rem;
     color: #f46036ff;
