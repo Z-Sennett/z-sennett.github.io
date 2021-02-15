@@ -91,3 +91,9 @@ a:active {
     color: #e71d36;
 }
 
+.link-button{
+    display: inline-block;
+    color: #e71d36;
+    background: #2e294e;
+    padding: 15px 15px;
+}
