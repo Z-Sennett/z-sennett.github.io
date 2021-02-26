@@ -1,7 +1,28 @@
+html{
+    font-size: 14px;
+    font-family: 'Hammersmith One', sans-serif; 
+}
+
+
 h1{
     margin: 10px;
 }
 
+h2{
+    margin: 15px;
+}
+
+h3{
+    margin: 15px;
+}
+
+h4{
+    margin: 15px;
+}
+
+h6{
+    margin: 15px;
+}
 p{
     margin:25px;
 }
