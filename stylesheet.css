@@ -3,6 +3,11 @@ html{
     font-family: 'Hammersmith One', sans-serif; 
 }
 
+.bg-primary{
+    background-color: #fb5012;
+    color: #053c5e;
+
+}
 
 h1{
     margin: 10px;
