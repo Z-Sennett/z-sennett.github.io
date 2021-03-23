@@ -1,8 +1,17 @@
 html{
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Hammersmith One', sans-serif; 
 }
 
+nav{
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav
+.nav-link {
+    color: #053c5e;
+    font-size: 18px;
+}
 
 h1{
     margin: 10px;
