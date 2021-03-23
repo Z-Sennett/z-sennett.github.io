@@ -12,6 +12,11 @@ nav{
     font-size: 18px;
 }
 
+.navbar-brand{
+    color: #053c5e;
+    font-size: 18px;
+}
+
 h1{
     margin: 10px;
 }
