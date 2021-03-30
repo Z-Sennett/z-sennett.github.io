@@ -18,11 +18,11 @@ nav{
     font-size: 18px;
 }
 
-a:visited{
+.navbar-dark a:visited{
     color: #E71D36;
 }
 
-a:active{
+.navbar-dark a:active{
     color: #1B998B;
 }
 h1{
