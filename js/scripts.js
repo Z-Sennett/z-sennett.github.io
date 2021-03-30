@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 var cap = {};
   cap['steve'] = 0;
-  cap['bucky'] = 0;
+  cap['sam'] = 0;
 $(document).ready(function(){
   
   drawChart();
@@ -17,8 +17,8 @@ $(document).ready(function(){
       if($("#bettercap").val()=="steve"){
         cap['steve']++;
       }
-      if($("#bettercap").val()=="bucky"){
-          cap['bucky']++;
+      if($("#bettercap").val()=="sam"){
+          cap['sam']++;
        }
     drawChart();
   });
@@ -28,10 +28,10 @@ $(document).ready(function(){
     var myChart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['Steve Rogers', 'Bucky Barnes'],
+            labels: ['Steve Rogers', 'Sam Wilson'],
             datasets: [{
                 label: '# of Votes',
-                data: [cap['steve'], cap['bucky']],
+                data: [cap['steve'], cap['sam']],
               backgroundColor:[
                 'tan',
                 'red'
