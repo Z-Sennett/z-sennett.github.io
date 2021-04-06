@@ -4,18 +4,18 @@ html{
 }
 
 nav{
-    font-size: 18px;
+    font-size: 1.25rem;
 }
 
 .navbar-dark .navbar-nav .nav-link
  {
     color: #053c5e;
-    font-size: 18px;
+    font-size: 1.25rem;
 }
 
 .navbar-dark .navbar-brand{
     color: #053c5e;
-    font-size: 18px;
+    font-size: 1.25rem;
 }
 
 .navbar-link a:visited{
