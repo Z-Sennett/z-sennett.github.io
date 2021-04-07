@@ -51,7 +51,7 @@ $(document).ready(function(){
       fox.done(function(response){       
         var foxData = response[0];
         $("#fox").show();
-        $("#fox-img").attr("https://randomfox.ca/images", foxData.url);
+        $("#fox-img").attr("src", foxData.url);
       });
     });
   });
