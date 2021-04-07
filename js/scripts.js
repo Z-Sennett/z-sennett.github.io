@@ -1,3 +1,4 @@
+//DatePicker
 $(document).ready(function(){
     $('#date').datepicker({
         format: 'mm/dd/yyyy',
@@ -5,7 +6,7 @@ $(document).ready(function(){
     
     });
 });
-
+//Captain America Poll
 var cap = {};
   cap['steve'] = 0;
   cap['sam'] = 0;
@@ -40,4 +41,17 @@ $(document).ready(function(){
             }
         });
   }
+  });
+
+  $(document).ready(function(){
+    $("#fox-button").click(function(){
+      var fox = $.get("https://randomfox.ca");
+      
+  
+      fox.done(function(response){       
+        var foxData = response[0];
+        $("#fox").show();
+        $("#fox-img").attr("https://randomfox.ca/images", foxData.url);
+      });
+    });
   });
