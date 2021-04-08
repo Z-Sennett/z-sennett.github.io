@@ -45,13 +45,12 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $("#fox-button").click(function(){
-      var fox = $.get("https://randomfox.ca");
+      var fox = $.get("https://randomfox.ca/floof/");
       
   
       fox.done(function(response){       
-        var foxData = response[0];
         $("#fox").show();
-        $("#fox-img").attr("src", foxData.url);
+        $("#fox-img").attr("src", response.image);
       });
     });
   });
