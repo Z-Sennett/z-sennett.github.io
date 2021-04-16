@@ -54,3 +54,10 @@ $(document).ready(function(){
       });
     });
   });
+
+$(document).ready(function(){
+  $("form").submit(function(){
+    event.preventDefault();
+   var webform= $.post("https://maker.ifttt.com/trigger/webform/with/key/d4sTtejyyd2zB_AcoSn4ON", JSON.stringify({"value1": $("#name").val, "value2": $("#email").val(), "value3": $("#message").val()}));
+     });
+})
