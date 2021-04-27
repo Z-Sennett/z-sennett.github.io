@@ -71,3 +71,7 @@ footer{
     color: white;
     font-size: 1.25rem;
 }
+
+.footer h1{
+    font-size: 14px
+}
