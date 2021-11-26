@@ -1,0 +1,13 @@
+html{
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+}
+
+nav{
+    font-size: 1.25rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: green;
+    font-size: 1.25rem
+}
