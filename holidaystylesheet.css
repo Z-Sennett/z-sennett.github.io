@@ -11,3 +11,42 @@ nav{
     color: green;
     font-size: 1.25rem
 }
+.navbar-dark .navbar-brand{
+    color: green;
+    font-size: 1.25rem;
+}
+
+
+h1{
+    margin: 10px;
+}
+
+h2{
+    margin: 15px;
+}
+
+h3{
+    margin: 15px;
+}
+
+h4{
+    margin: 15px;
+}
+
+h6{
+    margin: 15px;
+}
+p{
+    margin:25px;
+}
+footer{
+    
+    color: white;
+    font-size: 1.25rem;
+}
+
+.footer-h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
